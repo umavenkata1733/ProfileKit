@@ -1,0 +1,15 @@
+{
+  "originHash" : "a1e1de37fe6ce6e682cb870ee22fe0ef26b1b600cc2c9e6473391e1db499f58e",
+  "pins" : [
+    {
+      "identity" : "navigationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/umavenkata1733/NavigationKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "20557f401f8c15ab997f4eb4a4a133fa644e15ae"
+      }
+    }
+  ],
+  "version" : 3
+}

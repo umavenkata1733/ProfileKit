@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		170E505E2D32F8400010DC8F /* ProfileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170E50532D32F8400010DC8F /* ProfileKit.framework */; };
+		170E50702D32F8600010DC8F /* NavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 170E506F2D32F8600010DC8F /* NavigationKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170E50702D32F8600010DC8F /* NavigationKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +121,7 @@
 			);
 			name = ProfileKit;
 			packageProductDependencies = (
+				170E506F2D32F8600010DC8F /* NavigationKit */,
 			);
 			productName = ProfileKit;
 			productReference = 170E50532D32F8400010DC8F /* ProfileKit.framework */;
@@ -174,6 +177,9 @@
 			);
 			mainGroup = 170E50492D32F8400010DC8F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				170E506E2D32F8600010DC8F /* XCRemoteSwiftPackageReference "NavigationKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 170E50542D32F8400010DC8F /* Products */;
 			projectDirPath = "";
@@ -503,6 +509,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		170E506E2D32F8600010DC8F /* XCRemoteSwiftPackageReference "NavigationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/umavenkata1733/NavigationKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		170E506F2D32F8600010DC8F /* NavigationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 170E506E2D32F8600010DC8F /* XCRemoteSwiftPackageReference "NavigationKit" */;
+			productName = NavigationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 170E504A2D32F8400010DC8F /* Project object */;
 }
